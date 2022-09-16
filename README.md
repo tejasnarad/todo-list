@@ -1,8 +1,8 @@
 # todo-list
-java script todo list
+javascript todo list
 
 Small project for todo list using JS 
 
-implemeted insert delete edit in js 
+Implemeted insert delete edit in js 
 
-to open run index file in browser
+To open run index file in browser
