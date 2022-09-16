@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+    <title> todo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+
+
+    <style>
+        body{
+        margin:50px;
+        background-color:azure;
+        }
+        table{
+            border:1px solid;
+        }
+        .row{
+            padding:10px;
+        }
+    </style>
+
+
+</head>
+<body >
+    <center >
+    <div style="border:1px solid; border-radius:8px;" class="col-sm-6">
+        <br>
+        <div class="row">
+            <div class="col-sm-8 col-sx-10">
+                <div class="form-group">
+                    <input type="text" id="todoinput" class="form-control" placeholder='Add Something'></input>
+                </div>  
+            </div>
+            <div class="col-sm-3 col-xs-3">
+                <div class="form-group">
+                    <input type="button" id="submitbutn" onclick="addData()" class="form-control btn btn-sm btn-xs btn-success" value='Save' placeholder='Add Something'></input>
+                </div>  
+            </div>
+        </div>
+
+
+
+        <div class='row'>
+            <div class='col-sm-12' style='margin-top: 30px; '>
+
+                <table class="table table-striped" id="todo">
+                    <tr>
+                        <th>Todo</th>
+                        <th width="30%" colspan="">Action</th>
+                    </tr>
+                    <tbody id='tBody'>
+
+                    </tbody>
+                    <!-- <tr id='row-1'>
+                        <td></td>
+                        <td></td>
+                    </tr> -->
+                    
+                </table>
+            </div>
+        </div>
+    </div>
+</center>
+
+</body>
+
+<!-- <script type="text/javascript" src='/todolist/simplemanplation.js'></script> -->
+<script type="text/javascript" src='/todolist/complxplatform.js'></script>
