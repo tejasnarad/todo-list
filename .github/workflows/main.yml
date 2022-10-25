@@ -1,4 +1,4 @@
-
+on: push
 name: Liquibase Github Action
 uses: liquibase/liquibase-github-action@v7
 with:
