@@ -1,0 +1,11 @@
+- name: Liquibase Github Action
+  uses: liquibase/liquibase-github-action@v7
+  with:
+      operation: 'update'
+      classpath: 'example/changelogs'
+      changeLogFile: 'samplechangelog.h2.sql'
+      username: ${{ secrets.USERNAME_liquibase }}
+      password: ${{ secrets.PASSWORD_liquibase }}
+      url: ${{ secrets.URL_liquibase }}
+
+
